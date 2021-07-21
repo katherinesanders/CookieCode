@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1BA459226A8931D0078A548 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA459126A8931D0078A548 /* RateViewController.swift */; };
+		E1BA459426A8933F0078A548 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA459326A8933F0078A548 /* ResourcesViewController.swift */; };
+		E1BA459626A895F60078A548 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA459526A895F60078A548 /* CommunityViewController.swift */; };
+		E1BA459826A896200078A548 /* RateGoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA459726A896200078A548 /* RateGoodViewController.swift */; };
+		E1BA459A26A897690078A548 /* RateBadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA459926A897690078A548 /* RateBadViewController.swift */; };
+		E1BA459C26A897DA0078A548 /* RateOkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA459B26A897DA0078A548 /* RateOkViewController.swift */; };
 		E1BF1B1626A767B7004AA540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF1B1526A767B7004AA540 /* AppDelegate.swift */; };
 		E1BF1B1826A767B7004AA540 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF1B1726A767B7004AA540 /* SceneDelegate.swift */; };
 		E1BF1B1A26A767B7004AA540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF1B1926A767B7004AA540 /* ViewController.swift */; };
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1BA459126A8931D0078A548 /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		E1BA459326A8933F0078A548 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		E1BA459526A895F60078A548 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		E1BA459726A896200078A548 /* RateGoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateGoodViewController.swift; sourceTree = "<group>"; };
+		E1BA459926A897690078A548 /* RateBadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateBadViewController.swift; sourceTree = "<group>"; };
+		E1BA459B26A897DA0078A548 /* RateOkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateOkViewController.swift; sourceTree = "<group>"; };
 		E1BF1B1226A767B7004AA540 /* CookieCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BF1B1526A767B7004AA540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1BF1B1726A767B7004AA540 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +121,12 @@
 				E1BF1B2326A767B8004AA540 /* LaunchScreen.storyboard */,
 				E1BF1B2626A767B8004AA540 /* Info.plist */,
 				E1BF1B1E26A767B7004AA540 /* CookieCode.xcdatamodeld */,
+				E1BA459126A8931D0078A548 /* RateViewController.swift */,
+				E1BA459326A8933F0078A548 /* ResourcesViewController.swift */,
+				E1BA459526A895F60078A548 /* CommunityViewController.swift */,
+				E1BA459726A896200078A548 /* RateGoodViewController.swift */,
+				E1BA459926A897690078A548 /* RateBadViewController.swift */,
+				E1BA459B26A897DA0078A548 /* RateOkViewController.swift */,
 			);
 			path = CookieCode;
 			sourceTree = "<group>";
@@ -261,10 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BA459426A8933F0078A548 /* ResourcesViewController.swift in Sources */,
 				E1BF1B2026A767B7004AA540 /* CookieCode.xcdatamodeld in Sources */,
 				E1BF1B1A26A767B7004AA540 /* ViewController.swift in Sources */,
+				E1BA459A26A897690078A548 /* RateBadViewController.swift in Sources */,
+				E1BA459C26A897DA0078A548 /* RateOkViewController.swift in Sources */,
+				E1BA459826A896200078A548 /* RateGoodViewController.swift in Sources */,
 				E1BF1B1626A767B7004AA540 /* AppDelegate.swift in Sources */,
+				E1BA459226A8931D0078A548 /* RateViewController.swift in Sources */,
 				E1BF1B1826A767B7004AA540 /* SceneDelegate.swift in Sources */,
+				E1BA459626A895F60078A548 /* CommunityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
