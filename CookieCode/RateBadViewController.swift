@@ -8,7 +8,9 @@
 import UIKit
 
 class RateBadViewController: UIViewController {
-
+    
+    @IBOutlet weak var rateBadTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +18,14 @@ class RateBadViewController: UIViewController {
     }
     
 
+    @IBAction func enterBadButton(_ sender: Any) {
+        let userBadResponse = Response()
+        
+        if let responseBadText = rateBadTextField.text {
+            userBadResponse.textResponse = responseBadText
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

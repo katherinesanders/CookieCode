@@ -1,32 +1,21 @@
 //
-//  RateOkViewController.swift
+//  TabBarController.swift
 //  CookieCode
 //
-//  Created by Katherine Sanders on 7/21/21.
+//  Created by Katherine Sanders on 7/22/21.
 //
 
 import UIKit
 
-class RateOkViewController: UIViewController {
-    
-    //text field is created as an outlet
-    @IBOutlet weak var rateOkTextField: UITextField!
-    
+class TabBarController: UITabBarController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    
-    @IBAction func enterOkButton(_ sender: UIButton) {
-        let userOkResponse = Response()
-        
-        if let responseText = rateOkTextField.text {
-            userOkResponse.textResponse = responseText
-        }
-    }
-    
+
     /*
     // MARK: - Navigation
 

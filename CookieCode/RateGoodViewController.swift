@@ -9,13 +9,23 @@ import UIKit
 
 class RateGoodViewController: UIViewController {
 
+    @IBOutlet weak var rateGoodTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    
+    @IBAction func enterGoodButton(_ sender: Any) {
+        let userGoodResponse = Response()
+        
+        if let responseGoodText = rateGoodTextField.text {
+            userGoodResponse.textResponse = responseGoodText
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E103C33026A9F344008E38D3 /* CookieCodeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103C32F26A9F344008E38D3 /* CookieCodeClass.swift */; };
+		E103C33426AA097F008E38D3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103C33326AA097F008E38D3 /* TabBarController.swift */; };
+		E103C33A26AA0B7B008E38D3 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103C33926AA0B7B008E38D3 /* CalendarViewController.swift */; };
 		E1BA459226A8931D0078A548 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA459126A8931D0078A548 /* RateViewController.swift */; };
 		E1BA459426A8933F0078A548 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA459326A8933F0078A548 /* ResourcesViewController.swift */; };
 		E1BA459626A895F60078A548 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA459526A895F60078A548 /* CommunityViewController.swift */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E103C32F26A9F344008E38D3 /* CookieCodeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCodeClass.swift; sourceTree = "<group>"; };
+		E103C33326AA097F008E38D3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E103C33926AA0B7B008E38D3 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		E1BA459126A8931D0078A548 /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
 		E1BA459326A8933F0078A548 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		E1BA459526A895F60078A548 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +133,9 @@
 				E1BA459726A896200078A548 /* RateGoodViewController.swift */,
 				E1BA459926A897690078A548 /* RateBadViewController.swift */,
 				E1BA459B26A897DA0078A548 /* RateOkViewController.swift */,
+				E103C32F26A9F344008E38D3 /* CookieCodeClass.swift */,
+				E103C33326AA097F008E38D3 /* TabBarController.swift */,
+				E103C33926AA0B7B008E38D3 /* CalendarViewController.swift */,
 			);
 			path = CookieCode;
 			sourceTree = "<group>";
@@ -279,12 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E103C33426AA097F008E38D3 /* TabBarController.swift in Sources */,
 				E1BA459426A8933F0078A548 /* ResourcesViewController.swift in Sources */,
 				E1BF1B2026A767B7004AA540 /* CookieCode.xcdatamodeld in Sources */,
 				E1BF1B1A26A767B7004AA540 /* ViewController.swift in Sources */,
 				E1BA459A26A897690078A548 /* RateBadViewController.swift in Sources */,
 				E1BA459C26A897DA0078A548 /* RateOkViewController.swift in Sources */,
 				E1BA459826A896200078A548 /* RateGoodViewController.swift in Sources */,
+				E103C33026A9F344008E38D3 /* CookieCodeClass.swift in Sources */,
+				E103C33A26AA0B7B008E38D3 /* CalendarViewController.swift in Sources */,
 				E1BF1B1626A767B7004AA540 /* AppDelegate.swift in Sources */,
 				E1BA459226A8931D0078A548 /* RateViewController.swift in Sources */,
 				E1BF1B1826A767B7004AA540 /* SceneDelegate.swift in Sources */,
