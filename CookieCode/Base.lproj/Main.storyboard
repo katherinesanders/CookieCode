@@ -10,7 +10,7 @@
         <!--Rate Ok View Controller-->
         <scene sceneID="fPw-he-eTX">
             <objects>
-                <viewController id="OB4-Qe-bQV" customClass="RateOkViewController" customModule="CookieCode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="rateokvci" id="OB4-Qe-bQV" customClass="RateOkViewController" customModule="CookieCode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LFW-iY-CQW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -306,7 +306,7 @@
         <!--Rate Bad View Controller-->
         <scene sceneID="yl3-tj-b0E">
             <objects>
-                <viewController id="iHa-tc-lDQ" customClass="RateBadViewController" customModule="CookieCode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ratebadvci" id="iHa-tc-lDQ" customClass="RateBadViewController" customModule="CookieCode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5tV-WP-cGW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -366,7 +366,6 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JoK-8z-zRh"/>
                         <color key="backgroundColor" red="0.58039215686274503" green="0.84313725490196079" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
-                        <accessibility key="accessibilityConfiguration" identifier="ratebadvci"/>
                     </view>
                     <connections>
                         <outlet property="rateBadTextField" destination="5OT-Qt-tWv" id="ccO-cP-lbc"/>
@@ -379,7 +378,7 @@
         <!--Rate Good View Controller-->
         <scene sceneID="Hva-vA-Cki">
             <objects>
-                <viewController id="cR8-br-90Q" customClass="RateGoodViewController" customModule="CookieCode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="rategoodvci" id="cR8-br-90Q" customClass="RateGoodViewController" customModule="CookieCode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Sf-Ut-7Q7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -450,7 +449,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="BgT-rr-bq8"/>
+        <segue reference="WZi-0Z-bfM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="books.vertical" catalog="system" width="128" height="103"/>
